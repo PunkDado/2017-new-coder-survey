@@ -1,3 +1,5 @@
+## File with all the variables in survey 2016 and 2017
+
 "fields2016"				"fields2017"
 "1"				"Age"				"Age"
 "2"				"AttendedBootcamp"				"AttendedBootcamp"

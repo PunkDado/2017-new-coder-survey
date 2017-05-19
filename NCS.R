@@ -27,4 +27,11 @@ write.table(
 ## Filter - people taking FCC as resource
 fcc <- data2017[data2017$ResourceFCC %in% T,]
 
+## Filter - from fcc, people already working as software developer
 fcc_soft_dev <- fcc[fcc$IsSoftwareDev %in% T,]
+
+## Cria o arquivo .csv
+write.csv(
+        fcc_soft_dev, 
+        file = "/Users/Leonardo/OneDrive/Projetos/Data Science/FCC_NewCoderSurvey/2017-new-coder-survey/analysis/NCS_fcc_soft_dev.csv"
+)
